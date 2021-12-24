@@ -24,9 +24,9 @@ const fetchBreedDescription = function(breedName, callback) {
   });
 };
 
-// const printDescription = (description) => {
+// const printDescription = (error, description) => {
 //   console.log(description);
 // }
-//fetchBreedDescription('Siberian', printDescription)
+// fetchBreedDescription('Siberian', printDescription)
 
 module.exports = { fetchBreedDescription };
